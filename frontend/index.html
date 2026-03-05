@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lista de Tareas</title>
+    <style>
+        body { font-family: sans-serif; background-color: #f4f4f4; margin: 0; padding: 20px; }
+        .container { max-width: 600px; margin: auto; background: white; padding: 20px; box-shadow: 0 0 10px rgba(0,0,0,0.1); }
+        h1 { text-align: center; }
+        #task-form { display: flex; margin-bottom: 20px; }
+        #task-input { flex-grow: 1; padding: 10px; border: 1px solid #ddd; }
+        #task-form button { padding: 10px; border: none; background: #333; color: white; cursor: pointer; }
+        #task-list { list-style: none; padding: 0; }
+        .task-item { display: flex; align-items: center; padding: 10px; border-bottom: 1px solid #ddd; }
+        .task-item.completed span { text-decoration: line-through; color: #aaa; }
+        .task-item span { flex-grow: 1; }
+        .task-item .delete-btn { background: #ff4d4d; color: white; border: none; padding: 5px 10px; cursor: pointer; border-radius: 3px; }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Mi Lista de Tareas</h1>
+        <form id="task-form">
+            <input type="text" id="task-input" placeholder="Añadir nueva tarea..." required>
+            <button type="submit">Añadir</button>
+        </form>
+        <ul id="task-list">
+            <!-- Las tareas se cargarán aquí con JavaScript -->
+        </ul>
+    </div>
+
+    <script src="js/app.js"></script>
+</body>
+</html>
