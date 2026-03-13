@@ -70,4 +70,4 @@ Para ejecutar este proyecto, necesitas tener dos terminales abiertas: una para e
    La página se abrirá en tu navegador y comenzará a comunicarse con el backend que dejaste corriendo en la terminal.
 
 ---
-*Desarrollado por [Tu Nombre].*
+*Desarrollado por David Arenas Cabeza.*
